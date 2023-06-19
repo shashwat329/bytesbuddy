@@ -1,0 +1,58 @@
+body{
+    background-image: url(wallhaven.jpg) ;
+    /* background: #7f3fff; */
+    text-align: center;
+    font-family: sans-serif;
+    background-size:cover;
+
+  }
+
+.form{
+    background-color: #e0e1e2;
+    width: 500px;
+    padding: 80px 40px;
+    position: relative;
+    height: 400px;
+    margin-left: 450px;
+    margin-top: 50px;
+    border-radius:12px;
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.15);
+
+}
+
+label{
+    font-weight: 500;
+    color: #101030;
+}
+
+input{
+
+    display: block;
+    width: 100%;
+    margin-top: 2px;
+    padding: 12px;
+    border-radius: 20px;
+    outline: none;
+    color: #101030;
+}
+
+input[type="text"]{
+    border: 2px solid #fff;
+}
+
+input[type="password"]{
+    border: 2px solid #fff;
+}
+
+
+input[type="button"]{
+    background-color: #7f3fff;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+
+}
